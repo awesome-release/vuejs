@@ -1,7 +1,7 @@
 ## Verified to work in Release
 This project was derived from the vuejs project in [awesome-compose](https://github.com/docker/awesome-compose)
 
-No modifications to this project were necessary to make it work in Release.
+Had to add a vue.config.js file that allows connections outside of localhost with `disableHostCheck: true`.
 
 To make this project run in [Release](https://releaseapp.io), simply create a new application with this repository.
 
